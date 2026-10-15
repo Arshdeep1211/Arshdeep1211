@@ -1,21 +1,23 @@
 # Arshdeep Singh
 
-I build product concepts where physical operations, data, and software meet. My focus is technical product ownership: framing a user decision, translating it into a workflow and system, and making assumptions and trade-offs visible.
+I build product prototypes where operations, data and software meet. I focus on the full decision path: what a user needs to know, what a system can calculate, where human judgment belongs, and what to validate next.
 
-**Focus:** AI-assisted decision support · mobility · retail and supply chain · product discovery · APIs and data products
+**Product interests:** technical product ownership · AI-assisted decision support · mobility · retail and supply chain · B2B workflows
 
 ## Selected work
 
-| Project | User problem | Product and technical work |
+| Project | Product problem and current status | Stack used |
 | --- | --- | --- |
-| [Drone mission planner](projects/drone-mission-planner.md) | A pilot needs one place to review a route, local conditions, and an energy estimate before flight. | Responsive planning flow; map, geocoding and weather integrations; deterministic simulation API; review prompts, tests and deployment design. |
-| Retail decision intelligence | Store teams need clearer signals for availability, shelf life and daily action. | A private product concept organized around risk, recommendations, human decisions and outcomes. Details are kept private. |
+| [Drone mission planner](projects/drone-mission-planner.md) | Working pre-flight planning prototype combining route, weather, energy estimates and review prompts. [Public case study](projects/drone-mission-planner.md); source private. | React, Vite, Leaflet, Node.js, Express, OpenStreetMap and Open-Meteo APIs, Node test runner, Vercel configuration. |
+| CORTEXA retail decision MVP | Private, human-supervised prototype for ordering, expiry intervention and demand activation, with manager approval and outcome records. | Python, Streamlit, pandas, Pydantic, Plotly, SQLite and pytest. |
+| CORTEXA product website | Private product site explaining the retail decision loop and pilot journey. | Next.js, React, TypeScript, Tailwind CSS and Framer Motion, with application API routes. |
+| Bohemian Dragomans acquisition assistant | Private browser MVP for prospect records, evidence-based qualification, draft preparation, approval checks and Pipedrive-ready exports. Backend and LinkedIn content module are planned, not built yet. | HTML, CSS, JavaScript, browser local storage and JSON/CSV export. |
 
 ## How I work
 
-- **Start with the decision.** Define who acts, what evidence they need, and where uncertainty remains.
-- **Make the system legible.** Separate inputs, external data, business rules, API behavior and the user interface.
-- **Prototype end to end.** Use working software to test a workflow, then document limitations and the next validation step.
-- **Keep people in control.** Treat AI and forecasts as decision support; expose assumptions and review points.
+- **Start with the decision.** Define the user, the action, the evidence needed and the uncertainty.
+- **Connect product and implementation.** Map the workflow to data, APIs, rules, interfaces and review points.
+- **Build, test and learn.** Prototype the smallest useful loop, test the logic, and name the next validation step.
+- **Keep claims grounded.** A forecast or AI suggestion supports a person; it does not become a proven outcome without field evidence.
 
-The public [drone mission planner case study](projects/drone-mission-planner.md) explains the product choices, architecture, API design, testing and roadmap. Source repositories for current projects remain private.
+The [drone mission planner case study](projects/drone-mission-planner.md) gives a public view of the product choices, architecture, APIs, testing and roadmap. Other project source repositories remain private.
