@@ -20,4 +20,11 @@ I build product prototypes where operations, data and software meet. I focus on 
 - **Build, test and learn.** Prototype the smallest useful loop, test the logic, and name the next validation step.
 - **Keep claims grounded.** A forecast or AI suggestion supports a person; it does not become a proven outcome without field evidence.
 
+<details>
+<summary>External tools and skills I explore</summary>
+
+I use Codex and ChatGPT in research, prototyping and review. My broader toolkit includes UI UX Pro Max and Apple Design for interface thinking; Anatomy for technical visual explanations; OpenMontage for media workflows; Slopmonster for writing review; and Career Ops for career-document workflows. These are community or third-party tools, not repositories I authored.
+
+</details>
+
 The [drone mission planner case study](projects/drone-mission-planner.md) gives a public view of the product choices, architecture, APIs, testing and roadmap. Other project source repositories remain private.
